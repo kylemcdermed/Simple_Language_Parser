@@ -14,7 +14,7 @@ A simple parser and Abstract Syntax Tree (AST) implementation for a toy language
 
 ## Code Overview
 
-### 1. **Parser (`parser.cpp`)**
+### 1. **Parser**
 The parser is responsible for:
 - Converting tokens into an Abstract Syntax Tree (AST).
 - Handling:
@@ -23,7 +23,7 @@ The parser is responsible for:
   - **Function definitions and prototypes**.
   - **External declarations** and top-level expressions.
 
-### 2. **AST (`ast.cpp`)**
+### 2. **AST**
 The Abstract Syntax Tree (AST) includes:
 - **Number Expressions**: Nodes representing numeric literals.
 - **Variable Expressions**: Nodes for variable references.
